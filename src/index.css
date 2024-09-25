@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fafafc;
+    color: #777;
+}
+
+.app{
+    margin-top: 5px;
+    width: 1270px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+#image img{
+    width: 400px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+#image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    height:250px ;
+}
+
+.imageSection{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.para{
+    color: gray;
+}
+
+.surpriseSection{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+.surpriseButton{
+    border: 0;
+    border-radius:10px 10px 10px 10px;
+    color: black;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: rgb(227, 223, 223);
+    cursor: pointer;
+}
+
+.askme{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.askme input{
+    border: none;
+    width: 93%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: rgba(0, 0, 82, 0.15) 0 2px 4px;
+    outline: none;
+}
+.askme input::placeholder{
+   color: #cacaca;
+   font-weight: 200;
+}
+.askme button{
+    border: none;
+    width: 7%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: rgba(0, 0, 82, 0.15) 0 2px 4px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.response{
+    box-shadow: rgba(0, 0, 82, 0.15) 0 2px 4px;
+    padding: 13px 14px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 200;
+    border-radius: 6px;
+}
